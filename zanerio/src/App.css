@@ -1,0 +1,345 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration-line: none;
+}
+.MuiToolbar-root {
+  justify-content: space-between;
+  margin-right: 2rem;
+  margin-left: 3rem;
+}
+.LandingPage {
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+.two {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+.backgroundtwo {
+  position: relative;
+  left: 5rem;
+  right: 0;
+  height: 20rem;
+  background: url(../src/img/mailchimp-0qnRfgnZIsI-unsplash.jpg) center
+    center/cover;
+  border-radius: 15px;
+  transition: all, 2s;
+}
+.backgroundtwo:hover {
+  background-position: -10px, -10px;
+}
+.backcover {
+  background: rgba(24, 24, 28, 0.4);
+  border-radius: 15px;
+  height: 20rem;
+  opacity: 1;
+  z-index: 1;
+}
+
+.backthree {
+  position: relative;
+  height: 20rem;
+  background: url(../src/img/arthur-hinton-d5b-HSL2TiU-unsplash.jpg) center
+    center/cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 0;
+  margin-top: 0.5rem;
+  transition: all 2s ease-out;
+}
+.backthree:hover {
+  background-position: -10px, -10px;
+}
+.backcovertwo {
+  background: rgba(204, 138, 216, 0.5);
+  border-radius: 15px;
+  height: 20rem;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.backfour {
+  position: relative;
+  height: 20rem;
+  width: 100%;
+  background: url(../src/img/mailchimp-6kajEqr84iY-unsplash.jpg) center
+    center/cover;
+  object-fit: cover;
+  border-top-left-radius: 0;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 15px;
+  margin-top: 0.5rem;
+  transition: all, 2s;
+}
+.backfour:hover {
+  background-position: -10px, -10px;
+}
+.backcoverthree {
+  background: rgba(24, 24, 28, 0.4);
+  border-top-left-radius: 0;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 15px;
+  height: 20rem;
+  opacity: 1;
+  z-index: 1;
+}
+.slice1 {
+  position: relative;
+  background: url(../src/img/mailchimp-04X1Yp9hNH8-unsplash.jpg) center
+    center/cover;
+  transition: all, 2s;
+  min-height: 100vh;
+}
+.slice3 {
+  position: relative;
+  background: url(../src/img/mailchimp-lAx4E6Gl06s-unsplash.jpg) center
+    center/cover;
+  transition: all, 2s;
+  min-height: 100vh;
+}
+.each-slide-effect > div {
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  height: 350px;
+}
+.info {
+  position: relative;
+  left: 2rem;
+  width: 40%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: calc(8px + 2vmin);
+  color: purple;
+  padding: 1.5rem;
+  text-align: justify;
+}
+.flex {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.box1 {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+  border-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: purple;
+  margin: 1rem 4rem 1rem 4rem;
+  padding: 1.5rem;
+}
+.footer {
+  margin-top: 0.5rem;
+  display: flex;
+  background-color: purple;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding-left: 2rem;
+  width: 100%;
+}
+.icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+}
+.logo img {
+  height: 3rem;
+}
+.btn {
+  background-color: purple;
+  color: white;
+  width: 8rem;
+  height: 2rem;
+  padding-left: 5px;
+  border-radius: 5px;
+  border-style: none;
+  cursor: pointer;
+  pointer-events: inherit;
+}
+.about {
+  border-style: solid;
+  border-radius: 15px;
+  border-color: purple;
+  border-width: 2px;
+  justify-content: space-around;
+  height: 15rem;
+  text-overflow: clip;
+  text-align: center;
+  position: relative;
+  margin: 2rem;
+  padding: 2rem;
+  font-size: 1.1rem;
+}
+.aboutSlide .each-slide-effect {
+  height: 15rem;
+}
+.ourservice {
+  display: flex;
+  padding: 1rem;
+  margin: 1.5rem;
+}
+.ourservice .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 15rem;
+  text-overflow: clip;
+  text-align: center;
+  position: relative;
+  margin: 2rem;
+  padding: 2rem;
+  font-size: 1.1rem;
+}
+.capital {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  padding: 2rem;
+  margin-top: 2rem;
+  max-height: 100vh;
+}
+.cap1,
+.cap4 {
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  padding: 2rem;
+  grid-column: span 2;
+  font-size: 1.1rem;
+}
+.capital img {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.cap3 {
+  position: relative;
+  height: 50%;
+}
+
+.Address {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media (max-width: 946px) {
+  .about {
+    border-style: none;
+  }
+  .ourservice {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1.5rem;
+  }
+}
+
+@media (max-width: 664px) {
+  .info {
+    position: relative;
+    right: 2rem;
+    top: 2rem;
+    width: 80%;
+    height: 70%;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 1rem;
+    color: purple;
+    padding: 0rem;
+    text-align: justify;
+  }
+  .logo img {
+    width: 7rem;
+  }
+  .MuiBox-root css-i9gxme {
+    position: relative;
+    left: 9rem;
+    max-width: 100px;
+  }
+  .MuiToolbar-root {
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  
+  .two {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 0.5rem;
+    width: 100%;
+  }
+  .flex {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .about {
+    border-style: none;
+    border-radius: 15px;
+    justify-content: space-around;
+    height: 15rem;
+    text-overflow: clip;
+    text-align: center;
+    position: relative;
+    margin-top: 0;
+    overflow: scroll;
+    padding: 2rem;
+    font-size: 1.1rem;
+  }
+  .capital {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    padding: 2rem;
+    margin-top: 2rem;
+    max-height: 100vh;
+    overflow: scroll;
+  }
+  .capital img {
+    display: none;
+  }
+  .copyright{
+    display: none;
+  }
+}
+  @media (max-width: 489px) {
+.MuiBox-root css-v82cpl {
+   flex-direction: column;
+  }
+  }
