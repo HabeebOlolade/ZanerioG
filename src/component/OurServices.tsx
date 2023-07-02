@@ -1,6 +1,5 @@
 import React from "react";
 import Box from "@mui/material/Box";
-import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
@@ -12,15 +11,13 @@ const bull = (
   <Box
     component="span"
     sx={{ display: "inline-block", mx: "2px", transform: "scale(0.8)" }}
-  >
-    •
-  </Box>
+  ></Box>
 );
 
 export default function OurServices() {
   return (
     <div>
-      <Box sx={{ minWidth: 275, flexGrow: 1 }}>
+      <Box sx={{ minWidth: 300, flexGrow: 1 }}>
         <div className="ourservice">
           <CardContent className="card">
             <Typography

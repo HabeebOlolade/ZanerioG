@@ -253,7 +253,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 @media (max-width: 946px) {
@@ -265,6 +265,8 @@ a {
     flex-direction: column;
     padding: 1rem;
     margin: 1.5rem;
+    width: 100%;
+    margin-top: 1rem;
   }
 }
 
@@ -296,7 +298,6 @@ a {
     align-items: flex-end;
   }
 
-  
   .two {
     position: relative;
     display: flex;
@@ -334,12 +335,12 @@ a {
   .capital img {
     display: none;
   }
-  .copyright{
+  .copyright {
     display: none;
   }
 }
-  @media (max-width: 489px) {
-.MuiBox-root css-v82cpl {
-   flex-direction: column;
+@media (max-width: 489px) {
+  .MuiBox-root css-v82cpl {
+    flex-direction: column;
   }
-  }
+}

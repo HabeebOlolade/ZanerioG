@@ -4,12 +4,6 @@ import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 
-import Badge from "@mui/material/Badge";
-import MenuIcon from "@mui/icons-material/Menu";
-import AccountCircle from "@mui/icons-material/AccountCircle";
-import MailIcon from "@mui/icons-material/Mail";
-import NotificationsIcon from "@mui/icons-material/Notifications";
-import MoreIcon from "@mui/icons-material/MoreVert";
 import zenerio from "../img/zenero.png";
 import { Link } from "react-router-dom";
 
@@ -35,11 +29,7 @@ export default function NavBar() {
               </IconButton>
             </Link>
             <Link to="/AboutUs">
-              <IconButton
-                size="large"
-                aria-label="show 17 new notifications"
-                color="inherit"
-              >
+              <IconButton size="large" color="inherit">
                 <Typography
                   component="div"
                   color="primary"
