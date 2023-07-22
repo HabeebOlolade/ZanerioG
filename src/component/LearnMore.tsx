@@ -3,7 +3,7 @@ import React from "react";
 export default function LearnMore() {
   return (
     <div>
-      <div className="about">
+      <div className="learn">
         <p>
           We have experienced and higly qualified consultants that are ready to
           provide professional and quality consultancy services all over the

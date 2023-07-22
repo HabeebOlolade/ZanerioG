@@ -67,26 +67,6 @@ export default function OurServices() {
               Our Service
             </Typography>
             <Typography variant="h5" component="div">
-              BubblePerk
-            </Typography>
-            <Typography variant="body2">
-              BubblePerk is one of our ongoing venture that will be both mobile
-              and web-based and will aim to make ad content creation, sharing
-              and monetization more fun.
-            </Typography>
-            <CardActions>
-              <Button size="small">Learn More</Button>
-            </CardActions>
-          </CardContent>
-          <CardContent className="card">
-            <Typography
-              sx={{ fontSize: 14 }}
-              color="text.secondary"
-              gutterBottom
-            >
-              Our Service
-            </Typography>
-            <Typography variant="h5" component="div">
               Seed Investment
             </Typography>
             <Typography variant="body2">
