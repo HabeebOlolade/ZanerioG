@@ -15,10 +15,10 @@ export default function Capital() {
         </p>
       </div>
       <div className="cap2">
-        <img src={img3} alt="image" />
+        <img src={img3} alt="Team collaboration in office setting" />
       </div>
       <div className="cap3">
-        <img src={img4} alt="image" />
+        <img src={img4} alt="Business meeting with laptops and documents" />
       </div>
       <div className="cap4">
         <p>

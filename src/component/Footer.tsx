@@ -15,16 +15,36 @@ export default function Footer() {
       </div>
       <div className="icon">
         <p>follow Us</p>
-        <IconButton>
+        <IconButton
+          aria-label="Facebook"
+          href="https://facebook.com/zanerio"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FacebookIcon color="secondary" />
         </IconButton>
-        <IconButton>
+        <IconButton
+          aria-label="Twitter"
+          href="https://twitter.com/zanerio"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <TwitterIcon color="secondary" />
         </IconButton>
-        <IconButton>
+        <IconButton
+          aria-label="Instagram"
+          href="https://instagram.com/zanerio"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <InstagramIcon color="secondary" />
         </IconButton>
-        <IconButton>
+        <IconButton
+          aria-label="LinkedIn"
+          href="https://linkedin.com/company/zanerio"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <LinkedInIcon color="secondary" />
         </IconButton>
       </div>

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Button } from "@mui/material";
 
 export default function Grid() {
   return (
@@ -12,9 +13,9 @@ export default function Grid() {
               need of our clients and prospective clients in the IT sector. Join
               us to become one of us
             </p>
-            <Link to="/AboutUs">
-              <button className="btn">Learn More...</button>
-            </Link>
+            <Button component={Link} to="/AboutUs" className="btn">
+              Learn More...
+            </Button>
           </div>
           <div className="backthree">
             <div className="backcovertwo"></div>
@@ -31,9 +32,9 @@ export default function Grid() {
               based in Uzgorrod, Ukraine and Oslo, Norway ensures we deliver
               just the right solution for you.
             </p>
-            <Link to="/AboutUs">
-              <button className="btn">Learn More...</button>
-            </Link>
+            <Button component={Link} to="/AboutUs" className="btn">
+              Learn More...
+            </Button>
           </div>
         </div>
       </section>
